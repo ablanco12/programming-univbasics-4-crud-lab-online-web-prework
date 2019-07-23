@@ -50,7 +50,7 @@ end
 def retrieve_first_element_from_array(array)
   number = ["zero", "one", "two", "three"]
   
-  number[0]
+  number.index
 end
 
 def retrieve_last_element_from_array(array)
