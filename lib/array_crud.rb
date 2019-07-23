@@ -8,7 +8,6 @@ end
 
 def add_element_to_end_of_array(array, element)
   
-  number = ["zero","one","two","three"]
   number << "zero"
   p number
 
