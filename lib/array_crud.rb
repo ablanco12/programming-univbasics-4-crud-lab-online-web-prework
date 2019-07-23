@@ -58,6 +58,7 @@ def update_element_from_index(array, index_number, element)
   number = ["zero", "one", "two", "three"]
   
   number[2] = "three"
+  => "three"
   
   p number
 end
