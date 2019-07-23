@@ -25,9 +25,10 @@ end
 def remove_element_from_end_of_array(array)
   number = ["zero", "one", "two", "three"]
   
-  pop("three")
+  three = number.pop
   
-  p number
+  p three
+  p 
 end
 
 def remove_element_from_start_of_array(array)
