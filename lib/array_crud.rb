@@ -35,7 +35,7 @@ end
 def remove_element_from_start_of_array(array)
   number = ["zero", "one", "two", "three"]
   
-  number.shift("zero")
+  zero = number.shift
   
   p number
 end
