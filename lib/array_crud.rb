@@ -38,6 +38,7 @@ def remove_element_from_start_of_array(array)
   zero = number.shift
   
   p number
+  p zero 
 end
 
 def retrieve_element_from_index(array, index_number)
