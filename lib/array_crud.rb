@@ -44,13 +44,13 @@ end
 def retrieve_element_from_index(array, index_number)
   number = ["zero", "one", "two", "three"]
   
-  number[0]
+  number.index[2]
 end
 
 def retrieve_first_element_from_array(array)
   number = ["zero", "one", "two", "three"]
   
-  number.index
+  number[0]
 end
 
 def retrieve_last_element_from_array(array)
